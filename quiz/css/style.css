@@ -1,0 +1,82 @@
+body {
+	font-family: arial;
+	font-size: 15px;
+	line-height: 1.6em;
+	background-color: rgb(255, 255, 255);
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+label {
+	display: inline-block;
+	width: 220px;
+	
+}
+
+
+.content
+{
+	/* display: flex; */
+	justify-content: center;
+	min-height: auto;
+	padding: 37px 53px;
+	background:rgb(0 25 138);
+}
+
+.main-container{
+    background-color: rgb(190, 61, 61);
+    color: #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 700px;
+}
+.header {
+	background-color: rgb(243, 192, 130);
+	padding: 20px;
+	text-align: center;
+}
+
+.footer {
+	background-color:#000033;
+	color:#ffffff;
+	padding: 10px;
+
+	text-align: center;
+}
+
+a {
+	overflow: hidden;
+	background-color: rgba(88, 193, 198, 0.943);
+}
+
+/* Style the topnav links */
+a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 10px 10px;
+	padding-left: 10px;
+	margin-left: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+/* Change color on hover */
+ a:hover {
+	background-color:rgb(116, 229, 4);
+	/* color: black; */
+}
+
+.exit:hover
+{
+	background-color:rgb(186, 11, 11);
+	
+}

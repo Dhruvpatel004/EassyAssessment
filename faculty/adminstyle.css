@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.admin-title
+{
+    font-size: 10em;
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    margin: .67em 0;
+    display: block;
+}
+.admin-form
+{
+    position:relative;
+    height: 70vh;
+    width: 70vw;
+    background-color:aqua;
+
+}

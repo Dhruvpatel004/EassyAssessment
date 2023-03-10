@@ -1,0 +1,11 @@
+footer{
+    /* margin-top: 2rem; */
+    /* display: flex; */
+    justify-content: last baseline;
+    /* margin-bottom: 2rem; */
+    padding: 10px 0 10px 0;
+text-align: center;
+background-color: tomato;
+/* display: flex; */
+/* justify-content:space-between; */
+}

@@ -1,14 +1,22 @@
-*{
-    padding: 0;
-    margin: 0;
+body{
+    background: #222D32;
 }
-
-body {
+main {
     background: #222D32;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    /* margin: ; */
+    /* width: max-content; */
+    /* height: max-content; */
+    justify-content:space-evenly;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
 }
 .tt{
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     display: flex;
     /* background: #1e93c9; */
     font-family: 'Roboto', sans-serif;
@@ -20,12 +28,7 @@ body {
     
     /* margin-bottom: auto; */
 }
-.img{
-    /* background-color: #27EF9F; */
-    width: 50%;
-    height: 45%fit-content;
-    overflow: hidden;
-}
+
 .login-box {
     /* margin: 100px; */
     margin-left: 4rem;
@@ -178,69 +181,17 @@ label {
 .loginbttm {
     padding: 0px;
 }
-/* body{
-    background-color:white;
-}
-.main{
-    display: flex;
-    /* justify-content:space-evenly; */
-    /* flex-wrap: wrap;
-    flex-direction: row;
-    
-} */
-/* .login{
-    background-color:
-    white;
-    width: 30%vw;
-    text-align: center;
-    justify-content: center;
-    margin-top: 5rem;
-    border: 5px;
-    
-    background-color: aquamarine;
-    border-color: rgb(41, 41, 159);
-}
-.titleForm
-{
-color: blue;
-font-size: 2rem;
-margin-top: 2rem;
-margin-bottom: 3rem;
-width: max-content;
-margin-left: 8rem;
-margin-right: 8rem;
-}
-.username{
-    margin-bottom: 1rem;
-    /* font-style: oblique; 
-    font-weight: 500;
-    
-
-.password
-{
-    margin-bottom: 1rem;
-    /* font-style: oblique; 
-    font-weight: 500;
-}
-.box{
-    width: 10rem;
-    border-radius: .5rem;
-    text-align: center;
-}
-
 
 .img{
-    /* width: 30vw; 
-    margin-top: 5rem;
-    /* content: ""; 
-} */ 
+    /* background-color: #27EF9F;  */
+    padding: 15px;
+    width: 30%vw;
+     height: 30%vw;
+}
+.bgimg{
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 
-
-footer{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-text-align: center;
-background-color: tomato;
-/* display: flex; */
-/* justify-content:space-between; */
 }

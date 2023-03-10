@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #512DA8
+    }
+
+
+    .mt-100 {
+        margin-top: 100px;
+    }
+
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid #d2d2dc;
+        border-radius: 0
+    }
+
+    .card .card-body {
+        padding: 1.25rem 1.75rem
+    }
+
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1.25rem
+    }
+    .card .card-title {
+        color: #000000;
+        margin-bottom: 0.625rem;
+        text-transform: capitalize;
+        font-size: 0.875rem;
+        font-weight: 500
+    }
+    .card .card-description {
+        margin-bottom: .875rem;
+        font-weight: 400;
+        color: #76838f
+    }
+
+    p{
+        font-size: 0.875rem;
+        margin-bottom: .5rem;
+        line-height: 1.5rem
+    }
+
+    /*Radio buttons*/
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    input[type="radio"]+label:before {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        margin-right: 3px;
+        margin-bottom: 10px;
+        background-clip: content-box;
+        border: 1px solid #bbb;
+        /* background-color: #e7e6e7; */
+        border-radius: 50%;
+    }
+
+    input[type="radio"]:checked+label:before {
+        background-color: #93e026;
+    }
+
+    label {
+        display: flex;
+        align-items: center;
+    }
+</style>
+
+<body>
+
+    <div class="row d-flex justify-content-center mt-100">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-description">Find the custom radio button for your project</p>
+                    <div>
+                        <input type="radio" name="radio" id="radio1" checked="true" />
+                        <label class="radio" for="radio1">Radio Button 1</label>
+                        <input type="radio" name="radio" id="radio2" />
+                        <label for="radio2">Radio Button 2</label>
+                        <input type="radio" name="radio" id="radio3" />
+                        <label for="radio3">Radio Button 3</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
